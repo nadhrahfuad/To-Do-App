@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto Slab', serif !important;
+  background-image: url("../../assets/bg.png") !important;
+  background-repeat: repeat;
+  /* background-color: black; */
+}
+
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+/* DONE btn */
+  .donebtn-custom {
+    background-color: #e33b5a !important;
+    color: white !important;
+    transition: background-color 0.5s, color 0.5s !important;
+    transition-property: width !important;
+    transition-duration: 1s;
+    width:30%
+  }
+  
+  .donebtn-custom:hover {
+    background-color: #f43f60 !important;
+    color: white !important;
+    width:40%
+  }
+
+/* LOGIN btn */
+  .mainbtn-custom {
+    background-color: #c8344f  !important;
+    color: white !important;
+    transition: background-color 0.5s, color 0.5s !important;
+    font-weight: bold !important;
+    width:90%;
+    transition-property: width !important;
+    transition-duration: 1s;
+  }
+  
+  .mainbtn-custom:hover {
+    background-color: #e53958!important;
+    color: white !important;
+    width:95%;
+  }
+  
+    .editbtn-custom {
+      background-color: #e33b5a !important;
+      color: white !important;
+      transition: background-color 0.5s, color 0.5s !important;
+      width:40%;
+      transition-property: width !important;
+      transition-duration: 1s;
+      font-size: 9px;
+      height: 40px;
+      white-space: nowrap;
+
+    }
+    
+    .editbtn-custom:hover {
+      background-color: #f43f60 !important;
+      color: white !important;
+      width:45%;
+    }
+
+    .deletebtn-custom {
+      background-color: darkgrey !important;
+      color: white !important;
+      transition: background-color 0.5s, color 0.5s !important;
+      font-size: 9px;
+
+    }
+    
+    .deletebtn-custom:hover {
+      background-color: grey !important;
+      color: black !important;
+
+    }
+  
